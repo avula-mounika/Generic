@@ -24,7 +24,9 @@ package com.bl.generic;
 		}
 			public static void main(String[] args) {
 			Integer aInt = 4, bInt = 5, cInt = 6;
+			Float aFl = 7.7f, bFl = 8.8f, cFl = 9.9f;
 			new Maximum<Integer>(aInt, bInt, cInt).maximum();
+			new Maximum<Float>(aFl, bFl, cFl).maximum();
 			
 		}	
 	}
